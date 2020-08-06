@@ -1,0 +1,304 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('nature1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 650px;
+    
+}
+.header{
+    /* position: fixed;
+    background-color: turquoise; */
+    width: 100%;
+    background-color: black;
+}
+.header table{
+    margin-left: 30%;
+}
+
+
+.box1 ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+
+
+.box1 ul li{
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: royalblue;
+    font-style: italic;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.box1 ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.box1 ul li:hover{
+    background-color: slateblue;
+    border-radius: 3px;
+}
+.icons{
+    width: 100%;
+    float: right;
+}
+.icons ul{
+    display: inline-flex;
+    list-style-type: none;
+    padding-left: 80px;
+    float: right;
+}
+
+.icons ul a i:hover
+{
+    background-color: rebeccapurple;
+}
+.icons ul li{
+    padding: 10px;
+    margin: 10px;
+    width: 50px;
+}
+
+
+.box2
+{
+    
+    margin-top: 100px;
+    color: chartreuse;
+    font-size: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box3 a button{
+    margin-top: 20px;
+   width: 200px;
+   height: 60px;
+   font-size: 15px;
+   font-weight: bold;
+   background-color: yellowgreen;
+
+}
+.box3 a button:hover{
+    background-color: olivedrab;
+}
+
+/*.box3 a{
+    height: 100%;
+    text-align: center;
+    border: 1px solid green;
+    /* width: 450px; */
+    /* height: 60px; */
+    /* background-color: olivedrab;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.box3 a:hover{
+    background-color: darkgreen;
+    color: cornsilk;
+} */ 
+
+.box4{
+  
+    width: 300px;
+    height: 240px;
+    /* margin-left: 1030px; */
+    margin-top: -80px;
+    float: right;
+    animation-name: anim1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    border-radius: 8px;
+}
+@keyframes anim1{
+    25%{
+        background-image: url('form1.jpg');
+        background-size: cover;
+    }
+    50%{
+        background-image: url('form2.jpg');
+        background-size: cover;
+    }
+    75%{
+        background-image: url('form3.jpg')
+    }
+    100%{
+        background-image: url('form4.jpg');
+        background-size: cover;
+    }
+}        
+.box5{
+    text-align: center;
+    margin-top: 20%;
+}
+.box6{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.box7{
+    float: right;
+    margin-top: -420px;
+    margin-right: 50px;
+}
+.box8{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.box9{
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.box10{
+    float: right;
+    margin-top: -200px;
+    margin-right: 50px;
+}
+.box11{
+    float:right;
+    margin-left: 300px;
+    margin-top: -400px;
+    margin-right: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.box12
+{
+    text-align: center;
+    margin-top: 150px;
+}
+.box13{
+    margin-top: 30px;
+    text-align: center;
+    /* width: 100%; */
+}
+  
+.guidelink{
+    color: darkolivegreen;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+.box14{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.userbox1{
+    margin: auto;
+    width: 45%;
+    height: 480px;
+    background-color:  whitesmoke;
+    margin-top: 60px;
+}
+
+.userbox1 h1{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.userbox1 label
+{
+    padding-top: 30px;
+    margin-left: 65px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif, Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+.userbox1 input
+{
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.userbox1 table{
+    margin-left: 100px;
+    margin-top: -20px;
+    
+}
+.userbox1 table td{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+ .subscription
+{
+    margin-top: 5%;
+    margin-left: 10% ;
+
+} 
+ /* #subscriptiondetails
+{
+    margin-left: 100px;
+}  */
+.userbox2{
+    background-color: black;
+    margin-top: 200px;
+    width: 100%;
+    height: 300px;
+}
+.userbox3 p
+{
+    padding-left: 200px;
+    padding-top: 80px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.userbox4{
+    margin-left: 40%;
+    margin-top: -12%;
+    width: 100px;
+
+}
+.userbox4 ul{
+    list-style-type: none;
+}
+.userbox4 table tr td div ul{
+    padding: 10%;
+}
+.userbox5{
+    margin-left: 60px;
+    width: 150px;
+    height: 300px;
+    
+}
+.userbox5 ul li{
+    margin-top: 10px;
+}
+.userbox5 ul li a{
+    color: white;
+}
+
+.contactdetails input{
+    background-color: lightslategray;
+    width: 330px;
+    height: 40px;
+    font-size: 20px;
+    color: linen;
+}
+.contactimage
+{
+    background: url('contact.jpg');
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+}
